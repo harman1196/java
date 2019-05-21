@@ -29,8 +29,21 @@ public class Softwaresale {
   double finalAmount=subtotal-discountAmount;
   
   System.out.println("subtotal:$"+subtotal);
+  System.out.println("discount percent:$"+discount*100+"%");
   System.out.println("discountAmount:$"+discountAmount);
+  
   System.out.println("finalAmount:$"+finalAmount);
+  //System.out.printf("finalAmount:$%.2f",finalAmount);
+  
+  
+  //rounded to 2 decimal points
+  System.out.printf("final price:%.2f",finalAmount);
+  
+  
+  
+  
+  
+  // string formatting
   
 	}
 
